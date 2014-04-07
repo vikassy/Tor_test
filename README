@@ -1,0 +1,34 @@
+#Command to find out the type of system you are running x84 or x64
+uname -a 
+
+#To run proxy 
+python proxy.py
+
+#To install ngrep
+sudo apt-get install ngrep 
+
+#To get the network output using ngrep 
+ngrep -q -d ppp0 -W byline host site_name.com and port 80
+
+Eg: 
+ngrep -q -d ppp0 -W byline host stackoverflow.com and port 80
+
+
+#To install traceroute
+sudo apt-get install traceroute
+
+#To get the hops
+traceroute hostname
+
+Eg: 
+traceroute www.google.com
+
+================================Connecting to proxy===============================
+
+http://www.wikihow.com/Enter-Proxy-Settings-in-Firefox
+
+==================================Connecting to VPN===============================
+
+Check: http://www.securitykiss.com/resources/tutorials/pptp_ubuntu/
+
+Use crendentials from: http://www.vpnbook.com/#pptpvpn
